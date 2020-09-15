@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM6yjo7MZakPBC6Saczz5OS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/gabrielssouza25/Colab/blob/master/Exerc%C3%ADcio%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "G_kJ8kn8u3TU",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 136
+        },
+        "outputId": "ef2f9852-ed4d-4551-ccb7-b2af5ab4d745"
+      },
+      "source": [
+        "print(\"Programa que identifica o maior número digitado!\\n\")\n",
+        "n1 = input(\"Digite o primeiro número:\\n\")\n",
+        "n2 = input(\"Digite o primeiro número:\\n\")\n",
+        "\n",
+        "if(n1 > n2):\n",
+        "  print(n1,\"Número maior\")\n",
+        "elif(n2 > n1):\n",
+        "  print(n2,\"Número maior\")"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Programa que identifica o maior número digitado!\n",
+            "\n",
+            "Digite o primeiro número:\n",
+            "25\n",
+            "Digite o primeiro número:\n",
+            "1\n",
+            "25 Número maior\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
